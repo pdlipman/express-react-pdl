@@ -1,4 +1,5 @@
 {
   "source": "app",
-  "destination": "./dist/esdoc"
+  "destination": "./dist/esdoc",
+  "includes": ["\\.(js|jsx)$"]
 }
