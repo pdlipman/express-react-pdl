@@ -1,0 +1,9 @@
+node_modules/
+dist/bundle.js
+dist/esdoc
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
