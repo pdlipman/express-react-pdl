@@ -10,7 +10,7 @@
     "lint": "eslint app",
     "lintreport": "eslint . -f checkstyle -o ./dist/lint/lintreport.xml",
     "doc": "esdoc -c esdoc.json",
-    "postinstall": "npm run build && npm run doc"
+    "dist": "npm run build && npm run doc"
   },
   "repository": {
     "type": "git",
