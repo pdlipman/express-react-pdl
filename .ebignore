@@ -1,8 +1,6 @@
 node_modules/
-dist/bundle.js
 dist/esdoc
 dist/lcov-report
-dist
 npm-debug.log
 
 # Elastic Beanstalk Files
