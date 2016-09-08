@@ -1,6 +1,12 @@
 // Include the cluster module
 var cluster = require('cluster');
+var express = require('express');
+var bodyParser = require('body-parser');
+var path = require('path');
 
+var ddbTable =  process.env.STARTUP_SIGNUP_TABLE;
+var snsTopic =  process.env.NEW_SIGNUP_TOPIC;
+var app = express();
 // Code to run if we're in the master process
 if (cluster.isMaster) {
 
@@ -23,19 +29,13 @@ if (cluster.isMaster) {
 
 // Code to run if we're in a worker process
 } else {
-    var express = require('express');
-    var bodyParser = require('body-parser');
-    var path = require('path');
 
-    var ddbTable =  process.env.STARTUP_SIGNUP_TABLE;
-    var snsTopic =  process.env.NEW_SIGNUP_TOPIC;
-    var app = express();
 
     app.set('view engine', 'ejs');
     app.set('views', __dirname + '/views');
     app.use(bodyParser.urlencoded({extended:false}));
 
-    app.use('/dist', express.static('dist'));
+    app.use(express.static('dist'));
     //app.use(express.static(path.resolve(__dirname, '..', 'dist')));
 
     app.get('/', function(req, res) {
