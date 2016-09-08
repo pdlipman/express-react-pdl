@@ -6,7 +6,7 @@
   "rules": {
     "react/jsx-indent": [2, 4],
     "react/jsx-indent-props": [2, 4],
-    "indent": [2, 4],
+    "indent": [2, 4, {"SwitchCase": 1}],
     "prefer-template": "off",
     "react/prefer-es6-class": [1, "always"]
 
