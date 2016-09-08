@@ -1,7 +1,15 @@
 {
-  "name": "react-boilerplate",
-  "version": "0.4.0",
+  "name": "express-react-pdl",
+  "version": "0.1.0",
   "description": "my React.js boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdlipman/express-react-pdl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pdlipman/express-react-pdl/issues"
+  },
+  "homepage": "https://github.com/pdlipman/express-react-pdl/wiki",
   "scripts": {
     "watch": "watchify -t [ babelify --presets [ react ] ] ./app/App.js -o ./dist/bundle.js",
     "build": "browserify -t [ babelify --presets [ react ] ] ./app/App.js -o ./dist/bundle.js",
@@ -12,19 +20,6 @@
     "doc": "esdoc -c esdoc.json",
     "dist": "npm run build && npm run doc"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/koba04/react-boilerplate"
-  },
-  "keywords": [
-    "react"
-  ],
-  "author": "koba04",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/koba04/react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/koba04/react-boilerplate",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-eslint": "^6.1.2",
