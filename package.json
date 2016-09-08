@@ -20,7 +20,7 @@
     "lint": "eslint app",
     "lintreport": "eslint . -f checkstyle -o ./dist/lint/lintreport.xml",
     "doc": "esdoc -c esdoc.json",
-    "dist": "npm run build-css && npm run build-js && npm run doc && npm run test && npm run lint",
+    "dist": "npm run build-css && npm run build-js && npm run doc && npm run test && npm run lintreport",
     "lr": "live-reload --port 35729 ./dist/",
     "watch": "npm run watch-css & npm run watch-js & npm run lr & npm start"
   },
