@@ -1,20 +1,20 @@
 // Include the cluster module
-var cluster = require('cluster');
-var express = require('express');
-var bodyParser = require('body-parser');
-var path = require('path');
+const cluster = require('cluster');
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
 
-var ddbTable =  process.env.STARTUP_SIGNUP_TABLE;
-var snsTopic =  process.env.NEW_SIGNUP_TOPIC;
-var app = express();
+const ddbTable =  process.env.STARTUP_SIGNUP_TABLE;
+const snsTopic =  process.env.NEW_SIGNUP_TOPIC;
+const app = express();
 // Code to run if we're in the master process
 if (cluster.isMaster) {
 
     // Count the machine's CPUs
-    var cpuCount = require('os').cpus().length;
+    const cpuCount = require('os').cpus().length;
 
     // Create a worker for each CPU
-    for (var i = 0; i < cpuCount; i += 1) {
+    for (let i = 0; i < cpuCount; i += 1) {
         cluster.fork();
     }
 
@@ -52,21 +52,21 @@ if (cluster.isMaster) {
     //    res.sendFile(path.join(__dirname, 'views/index.html'));
     //});
 
-    var port = process.env.PORT || 3000;
+    const port = process.env.PORT || 3000;
 
-    var server = app.listen(port, function () {
+    const server = app.listen(port, function () {
         console.log(app.settings.env + ': Server running at http://127.0.0.1:' + port + '/');
     });
 }
 
 ////lets require/import the mongodb native drivers.
-//var mongodb = require('mongodb');
+//const mongodb = require('mongodb');
 //
 ////We need to work with "MongoClient" interface in order to connect to a mongodb server.
-//var MongoClient = mongodb.MongoClient;
+//const MongoClient = mongodb.MongoClient;
 //
 //// Connection URL. This is where your mongodb server is running.
-//var url = 'mongodb://ec2-52-90-7-207.compute-1.amazonaws.com:27017/pdlsite';
+//const url = 'mongodb://ec2-52-90-7-207.compute-1.amazonaws.com:27017/pdlsite';
 //
 //// Use connect method to connect to the Server
 //// Use connect method to connect to the Server
@@ -78,11 +78,11 @@ if (cluster.isMaster) {
 //        console.log('Connection established to', url);
 //
 //        // Get the documents collection
-//        var collection = db.collection('users');
+//        const collection = db.collection('users');
 //
 //        //Create some users
-//        var user1 = {name: 'test admin', roles: ['user']};
-//        var user2 = {name: 'test user', roles: ['user']};
+//        const user1 = {name: 'test admin', roles: ['user']};
+//        const user2 = {name: 'test user', roles: ['user']};
 //
 //        // Insert some users
 //        collection.insert([user1, user2], function (err, result) {
