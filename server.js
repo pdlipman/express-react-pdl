@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const cpuCount = require('os').cpus().length;
+var AWS = require('aws-sdk');
 
 // Code to run if we're in the master process
 if (cluster.isMaster) {
@@ -23,7 +24,13 @@ if (cluster.isMaster) {
 // Code to run if we're in a worker process
 } else {
     const app = express();
+    AWS.config.region = process.env.REGION
 
+    var sns = new AWS.SNS();
+    var ddb = new AWS.DynamoDB();
+
+    var ddbTable =  process.env.STARTUP_SIGNUP_TABLE;
+    var snsTopic =  process.env.NEW_SIGNUP_TOPIC;
     app.set('view engine', 'ejs');
     app.set('views', __dirname + '/views');
     app.use(bodyParser.urlencoded({ extended: false }));
