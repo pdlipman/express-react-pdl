@@ -1,5 +1,1 @@
-dist/bundle.js
-dist/esdoc
-dist/lcov-report
-dist
 npm-debug.log
