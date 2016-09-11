@@ -29,7 +29,8 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                {this.props.title}, this should be working!
+                {this.props.title}, working!
+                I think it does.
             </div>
         );
     }
