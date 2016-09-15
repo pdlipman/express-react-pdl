@@ -2,6 +2,7 @@
   "name": "express-react-pdl",
   "version": "0.1.0",
   "description": "my React.js boilerplate",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/pdlipman/express-react-pdl.git"
@@ -34,14 +35,15 @@
     "babelify": "^7.3.0",
     "esdoc": "^0.4.8",
     "eslint": "^3.4.0",
-    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-airbnb": "^11.1.0",
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0",
     "jest-cli": "15.1.1",
     "live-reload": "^1.1.0",
-    "node-sass": "^3.9.3",
-    "watchify": "^3.2.2"
+    "node-sass": "^3.10.0",
+    "watchify": "^3.2.2",
+    "bootstrap": "^4.0.0-alpha.4"
   },
   "dependencies": {
     "aws-sdk": "^2.5.6",
@@ -49,10 +51,10 @@
     "browserify": "^13.1.0",
     "ejs": "^2.5.1",
     "express": "^4.14.0",
-    "flux": "^2.0.3",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
-    "react-router": "^2.7.0"
+    "react-router": "^2.7.0",
+    "redux": "^3.6.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",

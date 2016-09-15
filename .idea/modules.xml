@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PicrossGame/PicrossGame.iml" filepath="$PROJECT_DIR$/../PicrossGame/PicrossGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/express-react-pdl.iml" filepath="$PROJECT_DIR$/.idea/express-react-pdl.iml" />
     </modules>
   </component>

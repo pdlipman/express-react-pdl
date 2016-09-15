@@ -1,11 +1,12 @@
-# My React Boilerplate  [![Build Status](https://travis-ci.org/koba04/react-boilerplate.svg?branch=master)](https://travis-ci.org/koba04/react-boilerplate)
-
+# Express React Boilerplate
+Based on: https://travis-ci.org/koba04/react-boilerplate
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/koba04/react-boilerplate)
 
 http://react-serverside-rendering.herokuapp.com/
 
-sever side rendering & Flux
+sever side rendering & Redux
+works with Amazon Web Services Elastic Beanstalk
 
 ES6 style
 
@@ -17,6 +18,7 @@ ES6 style
 * babel
 * eslint
 * esdoc
+* redux
 
 ## setup
 ```
@@ -33,10 +35,23 @@ npm run watch
 npm start
 ```
 
+## live reload
+```
+npm run lr
+```
+
+* live reload port: http://localhost:35729/livereload.js
+
+
 ## manual build
 * create bundle.js
 ```
-npm run build
+npm run build-js
+```
+
+* create main.css
+```
+npm run build-css
 ```
 
 ## test (with Jest)
@@ -44,6 +59,9 @@ npm run build
 ```
 npm test
 ```
+
+* you can see the documentation at http://localhost:3000/lcov-report/
+
 
 ## lint
 
@@ -53,9 +71,9 @@ npm test
 npm run lint
 ```
 
-## documentation
+* you can see the coverage XML at http://localhost:3000/lint/lintreport.xml
 
-http://react-serverside-rendering.herokuapp.com/esdoc/
+## documentation
 
 * using ESDoc
 
@@ -63,4 +81,4 @@ http://react-serverside-rendering.herokuapp.com/esdoc/
 npm run doc
 ```
 
-* you can see the documentation at http://localhost:5000/esdoc/
+* you can see the documentation at http://localhost:3000/esdoc/

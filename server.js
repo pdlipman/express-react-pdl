@@ -34,15 +34,15 @@ if (cluster.isMaster) {
     app.set('view engine', 'ejs');
     app.set('views', __dirname + '/views');
     app.use(bodyParser.urlencoded({extended:false}));
-
+    app.use('/static', express.static('static'));
     app.use(express.static('dist'));
     //app.use(express.static(path.resolve(__dirname, '..', 'dist')));
 
     app.get('/', function(req, res) {
         res.render('index.html.ejs', {
-            static_path: 'dist',
+            static_path: 'static',
             theme: process.env.THEME || 'flatly',
-            local_debug: 'false',
+            local_debug: false,
             title: 'test',
             //local_debug: process.env.FLASK_DEBUG || 'false'
         });
