@@ -12,18 +12,18 @@
   },
   "homepage": "https://github.com/pdlipman/express-react-pdl/wiki",
   "scripts": {
-    "watch-js": "watchify -t [ babelify --presets [ react ] ] ./app/App.js -o ./dist/bundle.js",
-    "build-js": "browserify -t [ babelify --presets [ react ] ] ./app/App.js -o ./dist/bundle.js",
+    "watch-js": "watchify -t [ babelify --presets [ react ] ] ./app/App.jsx -o ./dist/bundle.js",
+    "build-js": "browserify -t [ babelify --presets [ react ] ] ./app/App.jsx -o ./dist/bundle.js",
     "build-css": "node-sass ./sass/main.scss ./dist/css/main.css",
     "watch-css": "node-sass -w ./sass/main.scss ./dist/css/main.css",
     "start": "node server",
     "test": "jest --coverage",
-    "lint": "eslint app",
-    "lintreport": "eslint . -f checkstyle -o ./dist/lint/lintreport.xml",
+    "lint": "eslint --ext .js --ext .jsx .",
+    "lintreport": "eslint --ext .js --ext .jsx . -f checkstyle -o ./dist/lint/lintreport.xml",
     "doc": "esdoc -c esdoc.json",
     "dist": "npm run build-css && npm run build-js && npm run doc && npm run test && npm run lintreport",
     "lr": "live-reload --port 35729 ./dist/",
-    "watch": "npm run watch-css & npm run watch-js & npm run lr & npm start"
+    "watch": "npm run build-css && npm run build-js && npm run watch-css & npm run watch-js & npm run lr & npm start"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
