@@ -1,11 +1,8 @@
 # Express React Boilerplate
 Based on: https://travis-ci.org/koba04/react-boilerplate
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/koba04/react-boilerplate)
-
-http://react-serverside-rendering.herokuapp.com/
-
 sever side rendering & Redux
+
 works with Amazon Web Services Elastic Beanstalk
 
 ES6 style

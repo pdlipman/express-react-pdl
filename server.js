@@ -42,7 +42,7 @@ if (cluster.isMaster) {
         res.render('index.html.ejs', {
             static_path: 'static',
             theme: process.env.THEME || 'flatly',
-            local_debug: false,
+            local_debug: true,
             title: 'test',
             //local_debug: process.env.FLASK_DEBUG || 'false'
         });
