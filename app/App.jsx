@@ -27,8 +27,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                {this.props.title}, working!
-                I think it does.
+                {this.props.title}
             </div>
         );
     }
@@ -39,7 +38,7 @@ App.propTypes = {
 };
 
 App.defaultProps = {
-    title: 'Hello, World!',
+    title: 'Express React App',
 };
 
 module.exports = App;

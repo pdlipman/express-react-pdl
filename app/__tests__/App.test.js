@@ -7,6 +7,10 @@ import App from '../App.jsx';
 describe('App', () => {
     test('loads properly', () => {
         const component = TestUtils.renderIntoDocument( <App /> );
+
         expect(TestUtils.isCompositeComponent(component)).toBeTruthy();
+        expect(typeof component.props.title).toBe('string');
+        expect(component.props.title).toBe('Express React App');
+
     });
 });
