@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c296fd-2994-47f4-bd0f-28970ce2e34c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/__tests__/sum.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sum.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PicrossGame/app/game/main/GameProperties.jsx" afterPath="$PROJECT_DIR$/../PicrossGame/app/game/main/GameProperties.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PicrossGame/app/game/main/Preloader.jsx" afterPath="$PROJECT_DIR$/../PicrossGame/app/game/main/Preloader.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PicrossGame/app/game/ui/inventory/InventoryMenu.jsx" afterPath="$PROJECT_DIR$/../PicrossGame/app/game/ui/inventory/InventoryMenu.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PicrossGame/app/game/world/World.jsx" afterPath="$PROJECT_DIR$/../PicrossGame/app/game/world/World.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/App.jsx" afterPath="$PROJECT_DIR$/app/App.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__tests__/App.test.js" afterPath="$PROJECT_DIR$/app/__tests__/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="express-react-pdl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +51,8 @@
       <file leaf-file-name="App.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/__tests__/App.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1875">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.125">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -287,20 +283,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="express-react-pdl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="express-react-pdl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -850,16 +832,16 @@
       <workItem from="1473326576816" duration="9152000" />
       <workItem from="1473484196869" duration="33124000" />
       <workItem from="1474007038390" duration="67326000" />
-      <workItem from="1475466944438" duration="15446000" />
+      <workItem from="1475466944438" duration="15771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125048000" />
+    <option name="totallyTimeSpent" value="125373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -870,7 +852,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -5390,10 +5372,10 @@
         <state vertical-scroll-proportion="-11.875">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
-            <marker date="1477365040000" expanded="true" signature="59:556063" placeholder="..." />
-            <marker date="1477365040000" expanded="true" signature="98:214" placeholder="..." />
-            <marker date="1477365040000" expanded="true" signature="192:214" placeholder="..." />
-            <marker date="1477365040000" expanded="true" signature="555987:556052" placeholder="..." />
+            <marker date="1477365451000" expanded="true" signature="59:554364" placeholder="..." />
+            <marker date="1477365451000" expanded="true" signature="98:214" placeholder="..." />
+            <marker date="1477365451000" expanded="true" signature="192:214" placeholder="..." />
+            <marker date="1477365451000" expanded="true" signature="554288:554353" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -5476,14 +5458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
@@ -5508,10 +5482,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/__tests__/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1875">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.125">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
