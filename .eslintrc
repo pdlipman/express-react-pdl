@@ -10,7 +10,8 @@
     "prefer-template": "off",
     "no-path-concat": "off",
     "react/prefer-es6-class": [1, "always"],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/extensions": "off"
   },
   "env": {
     "browser": true,
