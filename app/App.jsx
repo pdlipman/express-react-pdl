@@ -1,6 +1,4 @@
-const React = require('react');
-const ReactDom = require('react-dom');
-
+import React from 'react';
 /**
  * App Class
  */
@@ -44,4 +42,4 @@ App.defaultProps = {
     title: 'Hello, World!',
 };
 
-ReactDom.render((<App />), document.getElementById('react-app'));
+module.exports = App;
